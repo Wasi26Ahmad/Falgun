@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     yesButton.addEventListener("click", () => {
-        fetch("https://formspree.io/f/your-email-endpoint", {
+        fetch("https://formspree.io/f/manqbldk", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ message: "Yes clicked!" })
