@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: blue;
+    background-color: yellow;
+    color: pink;
     font-family: Arial, sans-serif;
     text-align: center;
     display: flex;
@@ -12,6 +12,8 @@ body {
 
 .container {
     max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 h1 {
