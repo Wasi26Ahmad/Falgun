@@ -9,8 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
         noButton.style.top = `${y}px`;
     });
 
+    noButton.addEventListener("click", () => {
+        alert("No is not acceptable... I am sad.");
+    });
+
     yesButton.addEventListener("click", () => {
-        fetch("https://formspree.io/f/mzzdvkaz", {
+        fetch("https://formspree.io/f/your-email-endpoint", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ message: "Yes clicked!" })
